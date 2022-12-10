@@ -1,75 +1,186 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Project Name
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-> Description the project.
+Modify this file to match your project and remove sections that don't apply.
 
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-## Built With
+After you're finished please remove all the comments and instructions!
+-->
 
-- Major languages
-- Frameworks
-- Technologies used
+<div align="center">
 
-## Live Demo (if available)
+  <h3><b>Microverse README Template</b></h3>
 
-[Live Demo Link](https://livedemo.com)
+</div>
 
+<!-- TABLE OF CONTENTS -->
 
-## Getting Started
+# 📗 Table of Contents
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
 
+<!-- PROJECT DESCRIPTION -->
 
-To get a local copy up and running follow these simple example steps.
+# 📖 [to_do_list] <a name="about-project"></a>
 
-### Prerequisites
+> The objective of this project is to develop an application to set a list of daily activities and be able to manipulate it.
+
+**[to_do_list]** is a web app project
+
+## 🛠 Built With <a name="built-with"></a>
+
+- Major languages: html, javascript, CSS
+- Frameworks: No framework is used.
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">Webpack</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Webpack server</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">Local Storage as database</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[Displays a list of tasks]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link not available](...)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+1. In the console run npm install.
+2. Then run npm start.
 
 ### Setup
 
+Clone this repository to your desired folder:
+cd my-folder
+git clone https://github.com/Swarzstein/to-do-list-2.git
+
 ### Install
+
+Install this project with:
+
+npm install
 
 ### Usage
 
-### Run tests
+To run the project, execute the following command:
+
+npm start
 
 ### Deployment
 
+not available at the moment
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Authors
+<!-- AUTHORS -->
 
-👤 **Author1**
+## 👥 Authors <a name="authors"></a>
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 Juan Zorrilla
 
-👤 **Author2**
+- GitHub: [@githubhandle](https://github.com/Swarzstein/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Add new tasks]**
+- [ ] **[delete tasks]**
+- [ ] **[modify tasks]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+<!-- LICENSE -->
 
-## 📝 License
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
