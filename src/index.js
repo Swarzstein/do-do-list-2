@@ -1,6 +1,8 @@
 import './style.css';
 import Task from '../modules/task.js';
 
+import { setCheckboxListener, checkCompleted } from '../modules/status.js';
+
 const newTaskInput = document.querySelector('#new-task');
 const element = document.querySelector('#todolist');
 let toDoList = [];
@@ -112,6 +114,9 @@ const printList = () => {
       printList();
     });
   });
+
+  checkCompleted();
+  setCheckboxListener();
 };
 
 if (getToDoList() !== []) {
@@ -136,4 +141,27 @@ newTaskInput.addEventListener('keypress', (e) => {
   if (keypressed === 13) {
     if (newTaskInput.value !== '') { addNewTask(); }
   }
+});
+
+// Clear all selected
+document.querySelector('#clear-list').addEventListener('click', () => {
+  let tasks = JSON.parse(localStorage.getItem('to_do_list'));
+  const checked = [];
+  tasks = tasks.filter((task) => {
+    if (task.completed === true) {
+      checked.push(task.index);
+      return false;
+    }
+    return true;
+  });
+  for (let i = checked.length - 1; i >= 0; i -= 1) {
+    tasks.forEach((task) => {
+      if (task.index > checked[i]) {
+        task.index -= 1;
+      }
+    });
+  }
+  localStorage.setItem('to_do_list', JSON.stringify(tasks));
+  printList();
+  checkCompleted();
 });
