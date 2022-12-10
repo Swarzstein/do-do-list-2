@@ -21,13 +21,12 @@ const getToDoList = () => {
   return toDoList;
 };
 
-// eslint-disable-next-line consistent-return
 const printList = () => {
   const list = toDoList;
   let tasks = '';
   for (let i = 0; i < list.length; i += 1) {
-    // eslint-disable-next-line no-loop-func
-    list.forEach((task) => {
+    for (let j = 0; j < list.length; j += 1) {
+      const task = list[j];
       if (task.index === i) {
         tasks += `
         <li id = "${task.index}" class="item">
@@ -44,7 +43,7 @@ const printList = () => {
         </li>
       `;
       }
-    });
+    }
   }
 
   element.innerHTML = tasks;
