@@ -105,6 +105,25 @@ li {
   color: #777;
 }
 
+.kebab-menu {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kebab-menu span{
+  height: 1px !important;
+  width: 1px !important;
+  padding: 1px 1px !important;
+  border-radius: 5em;
+  background-color: #777;
+  margin: 1px;
+}
+
+.transparent {
+  background-color: #fff;
+  border-style: none;
+}
+
 .hidden {
   display: none;
 }

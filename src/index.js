@@ -36,13 +36,10 @@ const printList = () => {
             <input class="edit borderless fit hidden" type="text" name="edit${task.index}" id="edit${task.index}" placeholder="Edit task...">
             <p id="task${task.index}">${task.description}</p>
           </label>
-          <div class="edit-manager flex hidden">
-            <button class="edit-confirm">Confirm</button>
-            <button class="edit-cancel">Cancel</button>
-          </div>
-          <div class="list-editor flex">
-            <button class="edit-task">edit</button>
-            <button class="delete-task">Del</button>
+          <div class="kebab-menu">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
         </li>
       `;
